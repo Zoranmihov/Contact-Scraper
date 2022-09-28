@@ -1,0 +1,26 @@
+{
+  "name": "contactscraper",
+  "version": "0.0.1",
+  "description": "A web scraper for contact information from provided links",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --max-old-space-size=6144 server.js"
+  },
+  "author": "Zoran Mihov",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "puppeteer": "^17.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "domainList.json",
+      "lastSearchData.json"
+    ]
+  }
+}

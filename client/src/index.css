@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav button {
+  width: 50%;
+  padding: 4px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+nav button:hover {
+  background-color: #d7cab8;
+}
+
+h2 {
+  text-align: center;
+  margin: 6px 0;
+}
+
+#input-field {
+  display: flex;
+  padding: 8px;
+  margin: 0px 8px;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+}
+
+#input-field input {
+  width: 65%;
+  font-size: 16px;
+  padding: 2px;
+}
+
+#input-field button {
+  font-size: 16px;
+  width: 45px;
+  padding: 2px;
+  margin-left: 8px;
+}
+
+#scrape{
+  width: auto !important;
+}
+
+
+#domain-list-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 84vh;
+  overflow: auto;
+}
+
+.domainLink-card {
+  margin: 6px 0;
+  padding: 8px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  border-bottom: 1px solid black;
+
+}
+
+.domainLink-card button {
+  margin-left: 8px;
+
+}
+
+/* Search results styles */
+
+#searched-domains-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 89vh;
+  overflow: auto;
+}
+
+.search-results-card {
+  margin: 6px 0;
+  padding: 8px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+
+.search-results-card:hover {
+  background-color: #d5d5d5;
+}
+
+@media only screen and (max-width: 600px) {
+  .domainLink-card {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}

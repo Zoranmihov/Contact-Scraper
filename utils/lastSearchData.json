@@ -1,0 +1,13 @@
+[
+  { "domain": "https://www.imscs.com/", "scraped": "Failed" },
+  {
+    "domain": "http://www.schiller-automation.com",
+    "scraped": "Scraped",
+    "companyName": "Maschinenbau & Automatisierungstechnik / SCHILLER AUTOMATION",
+    "emails": [
+      "info@schiller-automation.com",
+      "datenschutz@schiller-automation.com"
+    ],
+    "phoneNumbers": ["+49 7128 386-0", "+49 7128 386-199"]
+  }
+]
